@@ -1,0 +1,152 @@
+/* Additional Styling */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Styles for navigation links */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Styles for the main content container */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to improve readability */
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styles for links in the footer */
+footer a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for images */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+/* Styles for social media links */
+ul.social-links {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul.social-links li a {
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Styles for privacy statement link */
+.privacy-link {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.privacy-link:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the title to match footer */
+header h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Styling for the logo and site name */
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.site-logo {
+    max-width: 80px; /* Adjust the logo size as needed */
+    margin-right: 20px; /* Adjust the spacing between the logo and site name */
+}
+
+.site-name {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Hover effect for all h tags */
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+    color: #ff6600; /* Change the color on hover to your desired color */
+}
+
+/* Add bullet points before h tags */
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+    content: '\2022'; /* Unicode bullet character */
+    color: #0073e6;
+    margin-right: 5px;
+}
+
+/* Set the background image to cover the entire webpage */
+body {
+    background-image: url('C:\\Users\\HP\\Pictures\\Saved Pictures\\Aidlink - Working To Educate, Enable & Empower Communities In Kenya_files\\water-and-sanitation-01-scaled.jpg'); /* Replace with your image link */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+}
+/* Use media query for smaller screens */
+@media screen and (max-width: 960px) and (orientation: portrait) {
+    .contact-info {
+        flex-direction: column;
+        text-align: center;
+    }
+}
